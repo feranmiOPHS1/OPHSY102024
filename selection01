@@ -1,0 +1,10 @@
+#Selection
+
+Team1Points = 90343423323322
+Team2Points = 110023232323345
+
+if Team1Points > 90343423313322:
+  print("Hello")
+  
+if Team2Points > 1322342333333:
+  print("Team 2 has", Team2Points)
