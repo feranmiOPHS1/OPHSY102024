@@ -1,0 +1,20 @@
+email = "spero@abc.co.uk"
+name = "spero"
+console = "playstation"
+age = 775654
+price = 14999.99
+
+
+#above are two variables
+#one is called "email"
+#other is called "name"
+#both contain data
+
+print(email)
+print(name)
+print(console)
+print(age)
+print(price)
+
+#print is a function
+#it displays text to the screen
