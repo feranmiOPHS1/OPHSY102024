@@ -1,0 +1,23 @@
+print("Welcome to MAD-LIB")
+print("Please answer the following questions")
+print(" ")
+
+adjective1 = input("Enter an adjective e.g. Small/Broken/Smelly>>>")
+nationality1 = input("Enter a nationality>>>")
+person1 = input("Enter a person>>>")
+adjective2 = input("Enter an adjective>>>")
+animal1 = input("Enter an animal>>>")
+petname1 = input("Enter a name>>>")
+noun1 = input("Enter a noun>>>")
+adjective2 = input("Enter an adjective>>>")
+adjective3 = input("Enter an adjective>>>")
+number1 = input("Enter a number>>>")
+number2 = input("Enter a number>>>")
+natiionality1 = input("Enter a nationality>>>")
+
+print(" ")
+print("Here is your MAD-LIB")
+print(" ")
+print("Once upon a time, there was a",adjective1,"who was from the great country of")
+print(,nationality1," His name was",person1,". He lived with his pet")
+print("which was a",adjective2,animal1.""
