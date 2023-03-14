@@ -1,0 +1,7 @@
+num = int(input("Give me a number"))
+
+if num >= 20:
+  print("too high")
+  
+else:
+  print("thank u")
