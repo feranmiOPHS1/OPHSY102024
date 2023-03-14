@@ -1,5 +1,7 @@
 food = "kebab"
 
+food = str(input("What is your favourite food"))
+
 if food == "kebab":
   print("Ummmm, my favourite")
   print("I feel like saying it 100 times...")
