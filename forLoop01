@@ -1,0 +1,2 @@
+for Singleletter in "Headphones":
+  print(Singleletter)
