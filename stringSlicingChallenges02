@@ -1,0 +1,7 @@
+firstname = str(input("Give me your first name >>>"))
+surname = str(input("Give me your surname>>>"))
+
+print(firstname,surname)
+fullname = (firstname,surname)
+
+print(len(firstname + surname))
