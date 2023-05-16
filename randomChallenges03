@@ -1,0 +1,13 @@
+import random
+
+options = ["h", "t"]
+coin = random.choice(options)
+
+guess = str(input("Guess h or t"))
+
+if guess == coin:
+  print("You win")
+
+else: 
+  print("Bad luck")
+  print("It was", coin)
