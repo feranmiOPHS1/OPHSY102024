@@ -1,0 +1,28 @@
+import random
+
+num = random.randint(1,5)
+userNum = int(input("Enter a number between 1 and 5"))
+
+
+if userNum == num:
+    print("Well done!")
+
+elif userNum > num:
+    print("Try again")
+    userNum2 = int(input("Have another guess."))
+    if userNum2 == num:
+        print("Congrats, second time lucky")
+
+    else:
+        print("You lose")
+        print("The number was", num)
+
+elif userNum < num:
+    print("Try again")
+    userNum2 = int(input("Have another guess."))
+    if userNum2 == num:
+        print("Congrats, second time lucky")
+
+    else:
+        print("You lose")
+        print("The number was", num)
