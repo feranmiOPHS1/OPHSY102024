@@ -1,0 +1,11 @@
+tv = ["BT Sports","Sky Sports Football","Sky Sports main event","sky sports epl","sky sports news"]
+
+for i in range(4):
+  print(tv[i])
+  
+show = str(input("What show do you want to add to the list?"))
+showPlace = int(input("What position would you like it?"))
+showPlace = showPlace - 1
+
+tv.insert(showPlace,show)
+print(tv)
