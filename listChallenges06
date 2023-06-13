@@ -1,0 +1,13 @@
+nums = []
+
+for i in range(3):
+  nums.append(int(input("Enter a number you want to add to the list")))
+  
+choice = str(input("Would you like the last number saved? y or n?")).lower()
+
+if choice == "n":
+  del nums[2]
+  print(nums)
+
+elif choice == "y":
+  print(nums)
