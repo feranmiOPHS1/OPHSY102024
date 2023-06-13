@@ -1,0 +1,24 @@
+list = []
+
+name1 = str(input("Enter the first name"))
+name2 = str(input("Enter the second name"))
+name3 = str(input("Enter the third name"))
+
+list.append(name1)
+list.append(name2)
+list.append(name3)
+
+choice = str(input("Do you want to invite another person? y or n?")).lower()
+
+if choice == "y":
+  while choice == "y":
+    name = str(input("Enter another name"))
+    list.append(name)
+    
+    choice = str(input("Do you want to invite another person? y or n?")).lower()
+    
+    if choice == "n":
+      print(list)
+
+elif choice == "n":
+  print(list)
